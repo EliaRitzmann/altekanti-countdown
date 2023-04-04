@@ -1,4 +1,7 @@
-<h1 class="txt font-roboto">Alte Kanti Aarau</h1>
+<div class="flex justify-center items-center h-screen" data-theme="light">
+    <h1 class="txt font-roboto">Alte Kanti Aarau</h1>
+</div>
+
 
 <style lang="scss">
 @function makelongshadow($length,$angle) {
