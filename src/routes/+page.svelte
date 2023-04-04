@@ -1,2 +1,20 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Intro from '../components/Intro.svelte'
+    import Main from '../components/Main.svelte';
+    import { onMount } from 'svelte';
+
+let into = true;
+
+onMount(() => {
+  setTimeout(() => {
+    into = false;
+  }, 3000);
+});
+
+</script>
+
+{#if into === true}
+<Intro></Intro>
+{:else}
+<Main></Main>
+{/if}

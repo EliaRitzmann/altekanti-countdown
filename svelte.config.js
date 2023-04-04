@@ -1,6 +1,10 @@
 import adapter from '@sveltejs/adapter-netlify';
+import preprocessor from 'svelte-preprocess';
+import { vitePreprocess } from '@sveltejs/kit/vite';
  
 export default {
+preprocess: preprocessor(),
+preprocess: vitePreprocess(),
   kit: {
     // default options are shown
     adapter: adapter({
