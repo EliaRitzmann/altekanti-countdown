@@ -43,7 +43,7 @@ import { onMount } from 'svelte';
 } 
 </style>
 
-<div class="relative bg-gradient-to-b lg:h-[140vh] text-white overflow-hidden ">
+<div class="bg-gradient-to-b lg:h-[140vh] text-white ">
   <header class="absolute w-screen flex justify-between ">
     <div class="flex items-center space-x-2 md:space-x-10">
       <!-- svelte-ignore a11y-missing-attribute -->
@@ -94,25 +94,25 @@ import { onMount } from 'svelte';
       <div class="flex space-x-3">
         <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
             <div class="flex flex-col p-2 bg-red-700 rounded-box text-neutral-content">
-              <span class="countdown font-mono text-5xl">
+              <span class="countdown font-mono text-2xl lg:text-5xl">
                 {days}
               </span>
               days
             </div> 
             <div class="flex flex-col p-2 bg-red-700 rounded-box text-neutral-content">
-              <span class="countdown font-mono text-5xl">
+              <span class="countdown font-mono text-2xl lg:text-5xl">
                 {hours}
               </span>
               hours
             </div> 
             <div class="flex flex-col p-2 bg-red-700 rounded-box text-neutral-content">
-              <span class="countdown font-mono text-5xl">
+              <span class="countdown font-mono text-2xl lg:text-5xl">
                 {minutes}
               </span>
               min
             </div> 
             <div class="flex flex-col p-2 bg-red-700 rounded-box text-neutral-content">
-              <span class="countdown font-mono text-5xl">
+              <span class="countdown font-mono text-2xl lg:text-5xl">
                 {seconds}
               </span>
               sec
@@ -121,8 +121,8 @@ import { onMount } from 'svelte';
           
       </div>
     </div>
-    <section class="md:space-y-24" />
-    <div class="h-40 space-y-0.5 md:space-y-2">
+    <section class="md:space-y-24 " />
+    <div class=" space-y-0.5 md:space-y-2">
       <h2 class="w-56 cursor-pointer text-sm font-semibold text-[#e5e5e5] transition duration-200 hover:text-white md:text-2xl">
         Klassen
       </h2>
@@ -144,7 +144,7 @@ import { onMount } from 'svelte';
 
         
       </div>
-      <div class="h-40 space-y-0.5 md:space-y-2">
+      <div class=" space-y-0.5 md:space-y-2">
         <h2 class="w-56 cursor-pointer text-sm font-semibold text-[#e5e5e5] transition duration-200 hover:text-white md:text-2xl">
           Klassen
         </h2>
@@ -166,7 +166,7 @@ import { onMount } from 'svelte';
   
           
         </div>
-        <div class="h-40 space-y-0.5 md:space-y-2">
+        <div class="space-y-0.5 md:space-y-2">
           <h2 class="w-56 cursor-pointer text-sm font-semibold text-[#e5e5e5] transition duration-200 hover:text-white md:text-2xl">
             Klassen
           </h2>
@@ -191,7 +191,7 @@ import { onMount } from 'svelte';
     </div>
     
   </main>
-  <footer class="footer items-center p-4 absolute bottom-0">
+  <footer class="footer items-center p-4 bg-black ">
     <div class="items-center grid-flow-col">
       <!-- svelte-ignore a11y-missing-attribute -->
       <img

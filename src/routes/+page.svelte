@@ -8,7 +8,7 @@ let into = true;
 onMount(() => {
   setTimeout(() => {
     into = false;
-  }, 3000);
+  }, 3100);
 });
 
 </script>

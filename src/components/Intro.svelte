@@ -1,5 +1,10 @@
+<script>
+
+</script>
+
 <div class="flex justify-center items-center h-screen" data-theme="light">
     <h1 class="txt font-roboto">Alte Kanti Aarau</h1>
+    <audio src="netflix_sound.mp3" controls autoplay style="display: none;"></audio>
 </div>
 
 
