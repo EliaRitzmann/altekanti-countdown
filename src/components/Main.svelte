@@ -1,5 +1,28 @@
 <script>
-
+import { onMount } from 'svelte';
+  import { compute_slots } from 'svelte/internal';
+  
+  let days = '00';
+  let hours = '00';
+  let minutes = '00';
+  let seconds = '00';
+  
+  const countdown = () => {
+    const endDate = new Date('May 5, 2023 14:50:00').getTime();
+    const now = new Date().getTime();
+    const distance = endDate - now;
+  
+    days = Math.floor(distance / (1000 * 60 * 60 * 24)).toString().padStart(2, '0');
+    hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString().padStart(2, '0');
+    minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0');
+    seconds = Math.floor((distance % (1000 * 60)) / 1000).toString().padStart(2, '0');
+    console.log("hello" + seconds)
+  };
+  
+  onMount(() => {
+    countdown();
+    setInterval(countdown, 1000);
+  });
 </script>
 
 <style>
@@ -47,8 +70,8 @@
     </div>
   </header>
 
-  <main class="pl-4 lg:pl-16">
-    
+    <main class="pl-4 lg:pl-16">
+      
     <div
       class="flex flex-col space-y-2 py-16 md:space-y-4 lg:h-[65vh] lg:justify-center lg:pb-12"
     >
@@ -64,32 +87,33 @@
       <p
         class="max-w-xs text-xs text-shadow-md md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl"
       >
-        overview
+        Thema: Filme und Serien (evt. Text)
+        
       </p>
 
       <div class="flex space-x-3">
         <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
             <div class="flex flex-col p-2 bg-red-700 rounded-box text-neutral-content">
               <span class="countdown font-mono text-5xl">
-                <span style={{"--value":15}}></span>
+                {days}
               </span>
               days
             </div> 
             <div class="flex flex-col p-2 bg-red-700 rounded-box text-neutral-content">
               <span class="countdown font-mono text-5xl">
-                <span style={{"--value":10}}></span>
+                {hours}
               </span>
               hours
             </div> 
             <div class="flex flex-col p-2 bg-red-700 rounded-box text-neutral-content">
               <span class="countdown font-mono text-5xl">
-                <span style={{"--value":24}}></span>
+                {minutes}
               </span>
               min
             </div> 
             <div class="flex flex-col p-2 bg-red-700 rounded-box text-neutral-content">
               <span class="countdown font-mono text-5xl">
-                <span style={{"--value":53}}></span>
+                {seconds}
               </span>
               sec
             </div>
