@@ -36,7 +36,7 @@
 </script>
 
 <div
-  class="bg-gradient-to-b lg:h-[140vh] text-white overflow-hidden max-h-screen"
+  class="bg-gradient-to-b lg:h-[140vh] text-white md:overflow-hidden md:max-h-screen"
 >
   <header class="absolute w-screen flex justify-between">
     <div class="flex items-center space-x-2 md:space-x-10">
