@@ -4,7 +4,9 @@
 
 <div class="flex justify-center items-center h-screen" data-theme="light">
     <h1 class="txt font-roboto">Alte Kanti Aarau</h1>
-    <audio src="netflix_sound.mp3" controls autoplay style="display: none;"></audio>
+    <!-- svelte-ignore a11y-missing-attribute -->
+    <iframe src="netflix_sound.mp3" allow="autoplay" id="audio" hidden ></iframe>
+    <audio src="netflix_sound.mp3" autoplay style="display: none;" ></audio>
 </div>
 
 
