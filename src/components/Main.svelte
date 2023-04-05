@@ -178,7 +178,7 @@
     </div>
     
   </main>
-  <footer class="footer items-center p-4 bg-black absolute bottom-0">
+  <footer class="footer items-center p-4 bg-black md:absolute md:bottom-0">
     <div class="items-center grid-flow-col">
       <!-- svelte-ignore a11y-missing-attribute -->
       <img src="logo.png" class="cursor-pointer object-contain h-16" />
