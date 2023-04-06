@@ -30,16 +30,12 @@
   onMount(() => {
     countdown();
     setInterval(countdown, 1000);
-
-            
   });
 </script>
 
-<div
-  class="bg-gradient-to-b lg:h-[140vh] text-white md:overflow-hidden md:max-h-screen"
->
-  <header class="absolute w-screen flex justify-between">
-    <div class="flex items-center space-x-2 md:space-x-10">
+<div class="bg-gradient-to-b text-white overflow-hidden h-screen max-h-screen whitespace-nowrap">
+  <header class="absolute w-full  flex justify-between">
+    <div class="flex items-center space-x-2 md:space-x-10 p-2">
       <!-- svelte-ignore a11y-missing-attribute -->
       <img src="logo.png" class="cursor-pointer object-contain h-16" />
 
@@ -65,7 +61,7 @@
     <div
       class="flex flex-col space-y-2 py-16 md:space-y-4 lg:h-[65vh] lg:justify-center lg:pb-12"
     >
-      <div class="absolute top-0 left-0 -z-10 w-screen bg-black h-full">
+      <div class="absolute top-0 left-0 max-h-screen h-screen overflow-hidden bg-black -z-10">
         <!-- svelte-ignore a11y-missing-attribute -->
         <img src="cover.png" layout="fill" objectFit="cover" class="cover" />
       </div>
@@ -114,32 +110,10 @@
         </div>
       </div>
     </div>
-    <section class="md:space-y-24 bg-black" />
-    
-    
-    <div class=" space-y-0.5 md:space-y-2 mt-8 lg:mt-0">
-      <h2
-        class="w-56 cursor-pointer text-sm font-semibold text-[#e5e5e5] transition duration-200 hover:text-white md:text-2xl"
-      >
-        Klassen
-      </h2>
-      <div class="group relative md:-ml-2">
-        <div
-          class="flex items-center space-x-0.5 overflow-x-scroll scrollbar-hide md:space-x-2.5 md:p-2 example"
-        >
-          <img src="bild1.png" alt="" class="h-44 w-80" />
-          <img src="bild1.png" alt="" class="h-44 w-80" />
-          <img src="bild1.png" alt="" class="h-44 w-80" />
-          <img src="bild1.png" alt="" class="h-44 w-80" />
-          <img src="bild1.png" alt="" class="h-44 w-80" />
-          <img src="bild1.png" alt="" class="h-44 w-80" />
-          <img src="bild1.png" alt="" class="h-44 w-80" />
-        </div>
-      </div>
-    </div>
 
-    <div class="flex justify-center mt-20">
-      <div class="flex space-x-3  md:hidden">
+    <section class="md:space-y-24 " />
+    <div class="flex justify-center mt-20 md:hidden">
+      <div class="flex space-x-3 ">
         <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
           <div
             class="flex flex-col p-2 bg-red-700 rounded-box text-neutral-content"
@@ -176,19 +150,72 @@
         </div>
       </div>
     </div>
-    
+
+    <div class=" space-y-0.5 md:space-y-2 mt-8 lg:mt-0">
+      <h2
+        class="w-56 cursor-pointer text-sm font-semibold text-[#e5e5e5] transition duration-200 hover:text-white md:text-2xl"
+      >
+        Klassen
+      </h2>
+      <div class="group relative md:-ml-2">
+        <div
+          class="flex items-center space-x-0.5 overflow-x-scroll scrollbar-hide md:space-x-2.5 md:p-2 example"
+        >
+          <img src="bild1.png" alt="" class="h-44 w-80" />
+          <img src="bild1.png" alt="" class="h-44 w-80" />
+          <img src="bild1.png" alt="" class="h-44 w-80" />
+          <img src="bild1.png" alt="" class="h-44 w-80" />
+          <img src="bild1.png" alt="" class="h-44 w-80" />
+          <img src="bild1.png" alt="" class="h-44 w-80" />
+          <img src="bild1.png" alt="" class="h-44 w-80" />
+        </div>
+      </div>
+
+      <div class=" space-y-0.5 md:space-y-2 mt-8 lg:mt-0 lg:hidden">
+        <h2
+          class="w-56 cursor-pointer text-sm font-semibold text-[#e5e5e5] transition duration-200 hover:text-white md:text-2xl"
+        >
+          Klassen
+        </h2>
+        <div class="group relative md:-ml-2">
+          <div
+            class="flex items-center space-x-0.5 overflow-x-scroll scrollbar-hide md:space-x-2.5 md:p-2 example"
+          >
+            <img src="bild1.png" alt="" class="h-44 w-80" />
+            <img src="bild1.png" alt="" class="h-44 w-80" />
+            <img src="bild1.png" alt="" class="h-44 w-80" />
+            <img src="bild1.png" alt="" class="h-44 w-80" />
+            <img src="bild1.png" alt="" class="h-44 w-80" />
+            <img src="bild1.png" alt="" class="h-44 w-80" />
+            <img src="bild1.png" alt="" class="h-44 w-80" />
+          </div>
+        </div>
+      </div>
+
+      
+
+      
+    </div>
+    <div class="flex justify-between mr-3 md:mr-16 mt-2">
+      <h1>Elia Ritzmann | I20A</h1>
+      <h1 class="">@jerome.shore</h1>
+    </div>
   </main>
-  <footer class="footer items-center p-4 bg-black md:absolute md:bottom-0">
+
+  <!--
+<footer class="footer items-center p-4 bg-black ">
     <div class="items-center grid-flow-col">
-      <!-- svelte-ignore a11y-missing-attribute -->
+      
       <img src="logo.png" class="cursor-pointer object-contain h-16" />
       <p>Elia Ritzmann | I20A</p>
     </div>
     <div class=" hidden md:block grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-      <!-- svelte-ignore a11y-missing-attribute -->
+      
       <a><h1>Insta: @jerome.shore</h1> </a>
     </div>
   </footer>
+
+  -->
 </div>
 
 <style>
