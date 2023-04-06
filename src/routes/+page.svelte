@@ -3,17 +3,17 @@
     import Main from '../components/Main.svelte';
     import { onMount } from 'svelte';
 
-let into = true;
+let intro = true;
 
 onMount(() => {
   setTimeout(() => {
-    into = false;
+    intro = false;
   }, 3100);
 });
 
 </script>
 
-{#if into === true}
+{#if intro === true}
 <Intro></Intro>
 {:else}
 <Main></Main>

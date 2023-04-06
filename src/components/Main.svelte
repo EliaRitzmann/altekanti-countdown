@@ -1,6 +1,5 @@
 <script>
   import { onMount } from "svelte";
-  import { compute_slots } from "svelte/internal";
 
   let days = "00";
   let hours = "00";
@@ -197,8 +196,8 @@
       
     </div>
     <div class="flex justify-between mr-3 md:mr-16 mt-2">
-      <h1>Elia Ritzmann | I20A</h1>
-      <h1 class="">@jerome.shore</h1>
+      <a href="https://elia-ritzmann.ch/"><h1>Elia Ritzmann | I20A</h1></a>
+      <a href="https://www.instagram.com/jerome.shore/"><h1 class="">@jerome.shore</h1></a>
     </div>
   </main>
 
