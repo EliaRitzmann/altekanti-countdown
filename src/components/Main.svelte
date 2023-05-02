@@ -7,7 +7,7 @@
   let seconds = "00";
 
   const countdown = () => {
-    const endDate = new Date("May 5, 2023 14:50:00").getTime();
+    const endDate = new Date("May 17, 2023 14:50:00").getTime();
     const now = new Date().getTime();
     const distance = endDate - now;
 
@@ -160,7 +160,8 @@
         <div
           class="flex items-center space-x-0.5 overflow-x-scroll scrollbar-hide md:space-x-2.5 md:p-2 example"
         >
-          <img src="bild1.png" alt="" class="h-44 w-80" />
+          
+          <img src="G19h.png" alt="" class="h-44 w-80 object-cover" />
           <img src="bild1.png" alt="" class="h-44 w-80" />
           <img src="bild1.png" alt="" class="h-44 w-80" />
           <img src="bild1.png" alt="" class="h-44 w-80" />
