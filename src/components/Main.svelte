@@ -296,6 +296,30 @@
               I20A
             </div>
           </div>
+          <div class="relative min-w-[200px] w-[200px]">
+            <img
+              src="W20A.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
+              W20A
+            </div>
+          </div>
+          <div class="relative min-w-[200px] w-[200px]">
+            <img
+              src="W20B.jpeg"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
+              W20B
+            </div>
+          </div>
         </div>
       </div>
 
