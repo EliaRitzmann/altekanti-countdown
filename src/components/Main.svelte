@@ -73,7 +73,7 @@
       <p
         class="max-w-xs text-xs text-shadow-md md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl"
       >
-        Bald isch es sowit...
+        Bald isch es sowit :)
       </p>
 
       <div class="flex space-x-3 hidden md:block">
@@ -294,6 +294,18 @@
               class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
             >
               I20A
+            </div>
+          </div>
+          <div class="relative min-w-[200px] w-[200px]">
+            <img
+              src="I20B.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
+              I20B
             </div>
           </div>
           <div class="relative min-w-[200px] w-[200px]">
