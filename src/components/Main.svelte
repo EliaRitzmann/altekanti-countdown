@@ -73,7 +73,7 @@
       <p
         class="max-w-xs text-xs text-shadow-md md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl"
       >
-        Bald isch es sowit.
+        Bald isch es sowit...
       </p>
 
       <div class="flex space-x-3 hidden md:block">
@@ -161,66 +161,144 @@
         Klassen
       </h2>
       <div class="group relative md:-ml-2">
-        <div class="flex items-center space-x-0.5 overflow-x-scroll scrollbar-hide md:space-x-2.5 md:p-2 example w-full">
+        <div
+          class="flex items-center space-x-0.5 overflow-x-scroll scrollbar-hide md:space-x-2.5 md:p-2 example w-full"
+        >
           <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19A.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
+            <img
+              src="G19A.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
               G19A
             </div>
           </div>
           <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19B.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
+            <img
+              src="G19B.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
               G19B
             </div>
           </div>
           <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19C.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
+            <img
+              src="G19C.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
               G19C
             </div>
           </div>
           <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19E.jpeg" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
+            <img
+              src="G19E.jpeg"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
               G19E
             </div>
           </div>
           <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19H.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
+            <img
+              src="G19F.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
+              G19F
+            </div>
+          </div>
+          <div class="relative min-w-[200px] w-[200px]">
+            <img
+              src="G19G.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
+              G19G
+            </div>
+          </div>
+          <div class="relative min-w-[200px] w-[200px]">
+            <img
+              src="G19H.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
               G19H
             </div>
           </div>
           <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19I.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
+            <img
+              src="G19I.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
               G19I
             </div>
           </div>
           <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19K.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
+            <img
+              src="G19K.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
               G19K
             </div>
           </div>
           <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19L.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
+            <img
+              src="G19L.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
               G19L
             </div>
           </div>
           <div class="relative min-w-[200px] w-[200px]">
-            <img src="I20A.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
+            <img
+              src="I20A.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
               I20A
             </div>
           </div>
-      
         </div>
       </div>
-      
-      
+
       <div class=" space-y-0.5 md:space-y-2 mt-8 lg:mt-0 lg:hidden">
         <h2
           class="w-56 cursor-pointer text-sm font-semibold text-[#e5e5e5] transition duration-200 hover:text-white md:text-2xl"
@@ -231,60 +309,138 @@
           <div
             class="flex items-center space-x-0.5 overflow-x-scroll scrollbar-hide md:space-x-2.5 md:p-2 example"
           >
-          <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19A.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
-              G19A
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="G19A.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19A
+              </div>
             </div>
-          </div>
-          <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19B.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
-              G19B
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="G19B.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19B
+              </div>
             </div>
-          </div>
-          <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19C.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
-              G19C
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="G19C.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19C
+              </div>
             </div>
-          </div>
-          <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19E.jpeg" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
-              G19E
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="G19E.jpeg"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19E
+              </div>
             </div>
-          </div>
-          <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19H.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
-              G19H
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="G19F.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19F
+              </div>
             </div>
-          </div>
-          <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19I.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
-              G19I
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="G19G.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19G
+              </div>
             </div>
-          </div>
-          <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19K.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
-              G19K
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="G19H.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19H
+              </div>
             </div>
-          </div>
-          <div class="relative min-w-[200px] w-[200px]">
-            <img src="G19L.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
-              G19L
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="G19I.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19I
+              </div>
             </div>
-          </div>
-          <div class="relative min-w-[200px] w-[200px]">
-            <img src="I20A.png" alt="" class="w-full aspect-auto object-cover" />
-            <div class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold">
-              I20A
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="G19K.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19K
+              </div>
             </div>
-          </div>
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="G19L.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19L
+              </div>
+            </div>
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
+                src="I20A.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                I20A
+              </div>
+            </div>
           </div>
         </div>
       </div>
