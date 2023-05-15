@@ -5,9 +5,10 @@
   let hours = "00";
   let minutes = "00";
   let seconds = "00";
+  let countdownFinished = false;
 
   const countdown = () => {
-    const endDate = new Date("May 17, 2023 12:00:00").getTime();
+    const endDate = new Date("May 17, 2023 11:30:00").getTime();
     const now = new Date().getTime();
     const distance = endDate - now;
 
@@ -24,7 +25,11 @@
       .toString()
       .padStart(2, "0");
     console.log("hello" + seconds);
-  };
+
+    if (distance <= 0) {
+      countdownFinished = true;
+    }
+  };s
 
   onMount(() => {
     countdown();
@@ -198,6 +203,18 @@
               class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
             >
               G19C
+            </div>
+          </div>
+          <div class="relative min-w-[200px] w-[200px]">
+            <img
+              src="G19D.png"
+              alt=""
+              class="w-full aspect-auto object-cover"
+            />
+            <div
+              class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+            >
+              G19D
             </div>
           </div>
           <div class="relative min-w-[200px] w-[200px]">
@@ -383,6 +400,18 @@
             </div>
             <div class="relative min-w-[200px] w-[200px]">
               <img
+                src="G19D.png"
+                alt=""
+                class="w-full aspect-auto object-cover"
+              />
+              <div
+                class="absolute bottom-1 -left-1 p-1 text-white bg-black bg-opacity-75 font-semibold"
+              >
+                G19D
+              </div>
+            </div>
+            <div class="relative min-w-[200px] w-[200px]">
+              <img
                 src="G19E.jpeg"
                 alt=""
                 class="w-full aspect-auto object-cover"
@@ -487,6 +516,20 @@
         ><h1 class="">@jerome.shore</h1></a
       >
     </div>
+    {#if countdownFinished}
+      <div class="container" id="secret">
+        <div class="confetti" />
+        <div class="confetti" />
+        <div class="confetti" />
+        <div class="confetti" />
+        <div class="confetti" />
+        <div class="confetti" />
+        <div class="confetti" />
+        <div class="confetti" />
+        <div class="confetti" />
+        <div class="confetti" />
+      </div>
+    {/if}
   </main>
 
   <!--
