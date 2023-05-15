@@ -29,7 +29,7 @@
     if (distance <= 0) {
       countdownFinished = true;
     }
-  };s
+  };
 
   onMount(() => {
     countdown();
